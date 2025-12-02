@@ -16,7 +16,7 @@ You would also require a reference genome and a sample. For testing, I used the 
 
 ### Installing
 
-Download the singularity images i.e. the [containers]() folder. The files here are .def files which must be first converted to .sif files. This can be only done if you have root access to the HPC or you can do it locally as well. Use the command to get a .def file
+Download the singularity images i.e. the [containers](https://github.com/Shissors/Variant-Calling-Pipeline/tree/main/containers) folder. The files here are .def files which must be first converted to .sif files. This can be only done if you have root access to the HPC or you can do it locally as well. Use the command to get a .def file
 
 You would also need 2 other images. [bcftools](https://hub.docker.com/r/biocontainers/bcftools)  and  [Samtools](https://hub.docker.com/r/biocontainers/samtools)
 
@@ -24,13 +24,13 @@ Put all these images in the containers folders.
 
 
 ```
-sudo singularity build <variant_image.sif> <variant_image.def>
+sudo singularity build variant_image.sif variant_image.def
 ```
 
 
 Download the [main.nf (pipeline file) ]() and the [nexflow configuration file]() 
 
-Download the [modules]()
+Download the [modules](https://github.com/Shissors/Variant-Calling-Pipeline/tree/main/modules)
 
 I also recommend using the same directory setup i.e. adding the results and data folders. The data folder contains your input files and the results folder contains the final results.
 
