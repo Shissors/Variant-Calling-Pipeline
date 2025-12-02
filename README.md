@@ -28,7 +28,7 @@ sudo singularity build variant_image.sif variant_image.def
 ```
 
 
-Download the [main.nf (pipeline file) ]() and the [nexflow configuration file]() 
+Download the [main.nf (pipeline file) ](https://github.com/Shissors/Variant-Calling-Pipeline/blob/main/main.nf) and the [nexflow configuration file](https://github.com/Shissors/Variant-Calling-Pipeline/blob/main/nextflow.config) 
 
 Download the [modules](https://github.com/Shissors/Variant-Calling-Pipeline/tree/main/modules)
 
